@@ -16,8 +16,8 @@ jobs:
       - name: Setup git configs
         run: |
           git checkout main
-          git config --global user.name "emon526"
-          git config --global user.email "emonats526@gmail.com"
+          git config --global user.name "Emon526"
+          git config --global user.email "Emonats526@gmail.com"
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
