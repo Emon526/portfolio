@@ -16,8 +16,8 @@ jobs:
       - name: Setup git configs
         run: |
           git checkout main
-          git config --global user.name "mhmzdev"
-          git config --global user.email "hamza.6.shakeel@gmail.com"
+          git config --global user.name "emon526"
+          git config --global user.email "emonats526@gmail.com"
 
       - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
@@ -30,7 +30,7 @@ jobs:
       - name: Deploy Firebase Hosting
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:mhmzdev-666 # ID of project at firebase
+          args: deploy --only hosting:portfolio-cdfed # ID of project at firebase
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_PATH: ./
