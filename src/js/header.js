@@ -21,11 +21,15 @@ function mapMetaDataInHeader() {
 function mapSocialLinksData() {
   let socials = [
     {
-      icon: "fa fa-linkedin-square",
+      icon: "fa-brands fa-x-twitter",
+      value: "https://twitter.com/emon526",
+    },
+    {
+      icon: "fa-brands fa-linkedin-in",
       value: "https://linkedin.com/in/asraful-islam-emon",
     },
     {
-      icon: "fa fa-github",
+      icon: "fa-brands fa-github",
       value: "https://github.com/emon526",
     },
     // {
@@ -33,20 +37,19 @@ function mapSocialLinksData() {
     //   value: "https://mhmzdev.medium.com",
     // },
     {
-      icon: "fa fa-facebook-square",
+      icon: "fa-brands fa-facebook-square",
       value: "https://facebook.com/emon.asrafulislam",
     },
     {
-      icon: "fa fa-instagram",
+      icon: "fa-brands fa-instagram",
       value: "https://instagram.com/asraful_islam_emon",
     },
     {
-      icon: "fa fa-twitter",
+      icon: "fa-brands fa-twitter",
       value: "https://twitter.com/emon526",
     },
   ];
 
-  // icons in top section
   for (var i = 0; i < socials.length; i++) {
     var anchor = document.createElement("a");
     anchor.className = "social-icon-wrapper";
