@@ -183,7 +183,7 @@ function mapProjectsData() {
       if (title == "App") {
         labelIcon.className = "p-label-icon fa-brands fa-apple";
       } else if (title == "Play") {
-        labelIcon.className = "p-label-icon fa-brands fa-google";
+        labelIcon.className = "p-label-icon fa-brands fa-android";
       } else if (title == "Web") {
         labelIcon.className = "p-label-icon fa-solid fa-globe";
       } else if (title == "GitHub") {

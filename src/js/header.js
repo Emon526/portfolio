@@ -24,7 +24,11 @@ function mapSocialLinksData() {
       icon: "fa-brands fa-github",
       value: "https://github.com/emon526",
     },
-
+    {
+      icon: "fa-brands fa-stack-overflow",
+      value:
+        "https://stackoverflow.com/users/14610345/asraful-islam?tab=profile",
+    },
     {
       icon: "fa-brands fa-linkedin-in",
       value: "https://linkedin.com/in/asraful-islam-emon",
@@ -34,7 +38,7 @@ function mapSocialLinksData() {
       value: "https://twitter.com/emon526",
     },
     // {
-    //   icon: "fa fa-medium",
+    //   icon: "fa-brands fa-medium",
     //   value: "",
     // },
     // {
