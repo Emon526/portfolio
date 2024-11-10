@@ -21,33 +21,30 @@ function mapMetaDataInHeader() {
 function mapSocialLinksData() {
   let socials = [
     {
-      icon: "fa-brands fa-x-twitter",
-      value: "https://twitter.com/emon526",
+      icon: "fa-brands fa-github",
+      value: "https://github.com/emon526",
     },
+
     {
       icon: "fa-brands fa-linkedin-in",
       value: "https://linkedin.com/in/asraful-islam-emon",
     },
     {
-      icon: "fa-brands fa-github",
-      value: "https://github.com/emon526",
+      icon: "fa-brands fa-x-twitter",
+      value: "https://twitter.com/emon526",
     },
     // {
     //   icon: "fa fa-medium",
-    //   value: "https://mhmzdev.medium.com",
+    //   value: "",
     // },
-    {
-      icon: "fa-brands fa-facebook-square",
-      value: "https://facebook.com/emon.asrafulislam",
-    },
-    {
-      icon: "fa-brands fa-instagram",
-      value: "https://instagram.com/asraful_islam_emon",
-    },
-    {
-      icon: "fa-brands fa-twitter",
-      value: "https://twitter.com/emon526",
-    },
+    // {
+    //   icon: "fa-brands fa-facebook-square",
+    //   value: "https://facebook.com/emon.asrafulislam",
+    // },
+    // {
+    //   icon: "fa-brands fa-instagram",
+    //   value: "https://instagram.com/asraful_islam_emon",
+    // },
   ];
 
   for (var i = 0; i < socials.length; i++) {
