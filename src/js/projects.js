@@ -4,54 +4,73 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function mapProjectsData() {
   let projects = [
-    {
-      title: "The Holy Qur'an",
-      image: "images/projects/quran.png",
-      type: "Open Source",
-      labels: [
-        {
-          title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.hmz.al_quran",
-        },
-        {
-          title: "Web",
-          link: "https://mhmzdev.github.io/quran/",
-        },
-        {
-          title: "GitHub",
-          link: "https://github.com/mhmzdev/the-holy-quran-app",
-        },
-      ],
-      supportedPlatform: [
-        {
-          name: "Flutter",
-          icon: "images/tech/flutter.svg",
-        },
-        {
-          name: "Web",
-          icon: "https://mhmzdev.github.io/quran/",
-        },
-      ],
-    },
-    {
-      title: "Devfolio",
-      image: "images/projects/devfolio.png",
-      type: "Open Source",
-      labels: [
-        {
-          title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.hmz.folio",
-        },
-        {
-          title: "Web",
-          link: "http://mhmzdev.github.io/devfolio",
-        },
-        {
-          title: "GitHub",
-          link: "https://github.com/mhmzdev/devfolio",
-        },
-      ],
-    },
+    // {
+    //   title: "The Holy Qur'an",
+    //   image: "images/projects/quran.png",
+    //   type: "Open Source",
+    //   labels: [
+    //     {
+    //       title: "Play",
+    //       link: "",
+    //     },
+    //     {
+    //       title: "Web",
+    //       link: "https://emon526.github.io/quran/",
+    //     },
+    //     {
+    //       title: "GitHub",
+    //       link: "",
+    //     },
+    //   ],
+    //   supportedPlatform: [
+    //     {
+    //       name: "Flutter",
+    //       icon: "images/tech/flutter.svg",
+    //     },
+    //     {
+    //       name: "Web",
+    //       icon: "https://emon526.github.io/quran/",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Devfolio",
+    //   image: "images/projects/devfolio.png",
+    //   type: "Open Source",
+    //   labels: [
+    //     {
+    //       title: "Play",
+    //       link: "https://play.google.com/store/apps/details?id=com.hmz.folio",
+    //     },
+    //     {
+    //       title: "Web",
+    //       link: "http://emon526.github.io/devfolio",
+    //     },
+    //     {
+    //       title: "GitHub",
+    //       link: "https://github.com/emon526/devfolio",
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "MotherCare",
+    //   image: "images/projects/storius.png",
+    //   type: "Product",
+    //   labels: [
+    //     {
+    //       title: "App",
+    //       link: "https://apps.apple.com/us/app/id1666697736",
+    //     },
+    //     {
+    //       title: "Play",
+    //       link: "https://play.google.com/store/apps/details?id=com.ejaapp.rider",
+    //     },
+    //     {
+    //       title: "Web",
+    //       link: "https://storiusapp.com/",
+    //     },
+    //   ],
+    // },
 
     // {
     //   title: "Awesome Snackbar Content",
@@ -60,7 +79,7 @@ function mapProjectsData() {
     //   labels: [
     //     {
     //       title: "GitHub",
-    //       link: "https://github.com/mhmzdev/awesome_snackbar_content",
+    //       link: "https://github.com/emon526/awesome_snackbar_content",
     //     },
     //     {
     //       title: "Package",
@@ -70,73 +89,72 @@ function mapProjectsData() {
     // },
     {
       title: "Expence Planner",
-      image: "images/projects/eja.png",
-      type: "Product",
-      labels: [
-        {
-          title: "Web",
-          link: "https://ejaapp.com/en",
-        },
-        {
-          title: "App",
-          link: "https://ejaapp.com/en",
-        },
-        {
-          title: "Play",
-          link: "https://ejaapp.com/en",
-        },
-      ],
-    },
-    {
-      title: "MotherCare Admin Panel",
-      image: "images/projects/snackbar.png",
+      image: "images/projects/quran.png",
       type: "Open Source",
       labels: [
         {
-          title: "GitHub",
-          link: "https://github.com/mhmzdev/awesome_snackbar_content",
+          title: "App",
+          link: "https://github.com/emon526/Expense-Planner/releases/latest",
         },
         {
-          title: "Package",
-          link: "https://pub.dev/packages/awesome_snackbar_content",
+          title: "Play",
+          link: "https://github.com/emon526/Expense-Planner/releases/latest",
+        },
+        {
+          title: "GitHub",
+          link: "https://github.com/emon526/Expense-Planner",
         },
       ],
     },
     {
-      title: "MotherCare",
+      title: "Mother Care",
       image: "images/projects/storius.png",
-      type: "Product",
+      type: "Open Source",
       labels: [
         {
           title: "App",
-          link: "https://apps.apple.com/us/app/id1666697736",
+          link: "https://github.com/emon526/Mother-Care-Flutter/releases/latest",
         },
         {
           title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.ejaapp.rider",
+          link: "https://github.com/emon526/Mother-Care-Flutter/releases/latest",
         },
         {
-          title: "Web",
-          link: "https://storiusapp.com/",
+          title: "GitHub",
+          link: "https://github.com/emon526/Mother-Care-Flutter",
         },
       ],
     },
     {
       title: "Pass Vault",
       image: "images/projects/sastaticket.png",
-      type: "Product",
+      type: "Open Source",
       labels: [
         {
           title: "App",
-          link: "https://apps.apple.com/in/app/sastaticket-flight-hotels/id1564441908",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
         },
         {
           title: "Play",
-          link: "https://play.google.com/store/apps/details?id=com.pk.sastaticket&hl=en&gl=US",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
         },
         {
-          title: "Web",
-          link: "https://www.sastaticket.pk/",
+          title: "GitHub",
+          link: "https://github.com/emon526/Flutter_PassVault",
+        },
+      ],
+      supportedPlatform: [
+        {
+          name: "Flutter",
+          icon: "images/tech/flutter.svg",
+        },
+        {
+          title: "App",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
+        },
+        {
+          title: "Play",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
         },
       ],
     },
