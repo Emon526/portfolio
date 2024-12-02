@@ -88,7 +88,7 @@ function mapProjectsData() {
     //   ],
     // },
     {
-      title: "Expence Planner",
+      title: "Expense Planner",
       image: "images/projects/expense_planner.png",
       gif: "images/projects/expense_planner.gif",
       type: "Open Source",
@@ -168,12 +168,14 @@ function mapProjectsData() {
     var title = project.title;
     var type = project.type;
     var image = project.image;
+    var gif = project.gif; // Added to fetch GIF URL
 
     var card = document.createElement("div");
     card.className = "project-card";
 
     var imageDiv = document.createElement("div");
     imageDiv.className = "p-image";
+
     var projectLabel = document.createElement("div");
     projectLabel.className = "label p-type";
     projectLabel.innerHTML = type;
@@ -183,8 +185,15 @@ function mapProjectsData() {
     projectImg.src = image;
     projectImg.alt = title;
 
+    var projectGif = document.createElement("img");
+    projectGif.className = "p-image-gif";
+    projectGif.src = gif; // Set the GIF source
+    projectGif.alt = title;
+    projectGif.style.opacity = "0"; // Initially hide the GIF
+
     imageDiv.appendChild(projectLabel);
     imageDiv.appendChild(projectImg);
+    imageDiv.appendChild(projectGif); // Append the GIF image to the imageDiv
 
     var projectName = document.createElement("p");
     projectName.className = "body1 p-title";
@@ -228,10 +237,29 @@ function mapProjectsData() {
       labels.appendChild(label);
     }
 
-    card.appendChild(projectLabel);
-    card.appendChild(projectImg);
+    card.appendChild(imageDiv);
     card.appendChild(projectName);
     card.appendChild(labels);
+
+    // Add hover event listeners
+    card.addEventListener("mouseenter", function () {
+      // Hide the static image and show the GIF of the hovered card
+      var projectImg = this.querySelector(".p-image-bg");
+      var projectGif = this.querySelector(".p-image-gif");
+
+      // Set the opacity of the image and gif
+      projectImg.style.opacity = "0"; // Hide the static image
+      projectGif.style.opacity = "1"; // Show the GIF
+    });
+
+    card.addEventListener("mouseleave", function () {
+      var projectImg = this.querySelector(".p-image-bg");
+      var projectGif = this.querySelector(".p-image-gif");
+
+      // Reset the opacity when mouse leaves
+      projectImg.style.opacity = "1"; // Show the static image
+      projectGif.style.opacity = "0"; // Hide the GIF
+    });
 
     var projectsDiv = document.getElementById("projects");
     projectsDiv.appendChild(card);
