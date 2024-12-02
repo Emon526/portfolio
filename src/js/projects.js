@@ -89,7 +89,8 @@ function mapProjectsData() {
     // },
     {
       title: "Expence Planner",
-      image: "images/projects/quran.png",
+      image: "images/projects/expense_planner.png",
+      gif: "images/projects/expense_planner.gif",
       type: "Open Source",
       labels: [
         {
@@ -108,7 +109,8 @@ function mapProjectsData() {
     },
     {
       title: "Mother Care",
-      image: "images/projects/storius.png",
+      image: "images/projects/mother_care.png",
+      gif: "images/projects/mother_care.gif",
       type: "Open Source",
       labels: [
         {
@@ -127,7 +129,8 @@ function mapProjectsData() {
     },
     {
       title: "Pass Vault",
-      image: "images/projects/sastaticket.png",
+      image: "images/projects/pass_vault.png",
+      gif: "images/projects/pass_vault.gif",
       type: "Open Source",
       labels: [
         {
