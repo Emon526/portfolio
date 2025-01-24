@@ -2,6 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
   mapMetaDataInHeader();
   mapSocialLinksData();
   mapStatsData();
+
+  // Add event listener for the navbar toggle button
+  var navbarToggle = document.getElementById("navbar-icon");
+  var navbarMenu = document.getElementById("navbar-menu");
+
+  navbarToggle.addEventListener("click", function () {
+    navbarMenu.classList.toggle("show");
+  });
 });
 
 function mapMetaDataInHeader() {
