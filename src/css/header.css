@@ -20,7 +20,7 @@
   color: white;
 }
 
-.txt-type > .txt {
+.txt-type>.txt {
   color: white;
   border-right: 0.1rem solid white;
 }
