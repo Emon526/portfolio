@@ -103,8 +103,10 @@
   padding-top: 5%;
   padding-left: 3%;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
   text-align: center;
 }
 
