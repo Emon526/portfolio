@@ -41,7 +41,7 @@ function mapExperienceData() {
     {
       org: "MotherCare",
       position: "Consultant & Lead Mobile Developer",
-      duration: "Sep 2022 - Present",
+      duration: "Sep 2022 - April 2023",
       technologies: [
         "Flutter",
         "Dart",
