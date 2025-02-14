@@ -1,6 +1,6 @@
 ## Web Portfolio
 
-<img src="https://user-images.githubusercontent.com/43790152/220690586-63eaae7b-e684-4f12-8294-7e85534a5907.gif">
+<img src="preview/HomePage.gif" alt="Homepage GIF">
 
 ### 💻 Live
 Check the deployed version [here][live]
@@ -29,9 +29,9 @@ Here is some look'n feel from the implementation
 - The homepage showcases a responsive layout with a navigation bar and sections for projects, about, and contact.
 - The GIFs below demonstrate the interactive features of the portfolio.
 
-<img src="https://user-images.githubusercontent.com/43790152/220706171-5eb846c2-c137-4d51-a518-624aa5bd3c02.gif" alt="Homepage GIF">
-<img src="https://user-images.githubusercontent.com/43790152/220693107-4f0ab916-04fc-44d1-adfc-c874e42203de.gif" alt="Projects GIF">
-<img src="https://user-images.githubusercontent.com/43790152/220706713-19bd40cf-c038-425c-9f34-196acc957674.gif" alt="Contact GIF">
+<img src="preview/TechStack.gif" alt="TechStack GIF">
+<img src="preview/Projects.gif" alt="Projects GIF">
+<img src="preview/Contact.gif" alt="Contact GIF">
 
 ### 🔑 License
 - This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details. Users are free to use, modify, and distribute the project as long as proper attribution is given.
