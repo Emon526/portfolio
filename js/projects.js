@@ -161,40 +161,6 @@ function mapProjectsData() {
         },
       ],
     },
-    {
-      title: "Pass Vault",
-      image: "images/projects/pass_vault/pass_vault.png",
-      gif: "images/projects/pass_vault/pass_vault.gif",
-      type: "Open Source",
-      labels: [
-        {
-          title: "App",
-          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
-        },
-        {
-          title: "Play",
-          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
-        },
-        {
-          title: "GitHub",
-          link: "https://github.com/emon526/Flutter_PassVault",
-        },
-      ],
-      supportedPlatform: [
-        {
-          name: "Flutter",
-          icon: "images/tech/flutter.svg",
-        },
-        {
-          title: "App",
-          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
-        },
-        {
-          title: "Play",
-          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
-        },
-      ],
-    },
   ];
 
   for (var i = 0; i < projects.length; i++) {
