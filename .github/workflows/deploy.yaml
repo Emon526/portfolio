@@ -34,7 +34,7 @@ jobs:
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
-          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_CDFED }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_ASRAFUL_ISLAM_PORTFOLIO }}
           channelId: live
           projectId: asraful-islam-portfolio
         # uses: w9jds/firebase-action@master
