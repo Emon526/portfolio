@@ -89,8 +89,8 @@ function mapProjectsData() {
     // },
     {
       title: "Expense Planner",
-      image: "images/projects/expense_planner.png",
-      gif: "images/projects/expense_planner.gif",
+      image: "images/projects/expense_planner/expense_planner.png",
+      gif: "images/projects/expense_planner/expense_planner.gif",
       type: "Open Source",
       labels: [
         {
@@ -109,8 +109,8 @@ function mapProjectsData() {
     },
     {
       title: "Mother Care",
-      image: "images/projects/mother_care.png",
-      gif: "images/projects/mother_care.gif",
+      image: "images/projects/mother_care/mother_care.png",
+      gif: "images/projects/mother_care/mother_care.gif",
       type: "Open Source",
       labels: [
         {
@@ -129,8 +129,42 @@ function mapProjectsData() {
     },
     {
       title: "Pass Vault",
-      image: "images/projects/pass_vault.png",
-      gif: "images/projects/pass_vault.gif",
+      image: "images/projects/pass_vault/pass_vault.png",
+      gif: "images/projects/pass_vault/pass_vault.gif",
+      type: "Open Source",
+      labels: [
+        {
+          title: "App",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
+        },
+        {
+          title: "Play",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
+        },
+        {
+          title: "GitHub",
+          link: "https://github.com/emon526/Flutter_PassVault",
+        },
+      ],
+      supportedPlatform: [
+        {
+          name: "Flutter",
+          icon: "images/tech/flutter.svg",
+        },
+        {
+          title: "App",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
+        },
+        {
+          title: "Play",
+          link: "https://github.com/emon526/Flutter_PassVault/releases/latest",
+        },
+      ],
+    },
+    {
+      title: "Pass Vault",
+      image: "images/projects/pass_vault/pass_vault.png",
+      gif: "images/projects/pass_vault/pass_vault.gif",
       type: "Open Source",
       labels: [
         {
