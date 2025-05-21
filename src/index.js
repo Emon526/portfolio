@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             scrollTop: $target.offset().top + 2,
           },
-          1000,
+          0,
           "swing",
           function () {
             window.location.hash = target;
@@ -49,25 +49,44 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function scrollToTop() {
+  console.log("Scroll to top function called");
   // scroll to top
   $("#up").on("click", function () {
+    console.log("up clicked");
+    //scroll to top
     $("html, body").animate(
       {
         scrollTop: 0,
       },
-      1500
+      0
     );
+    refreshPage();
     return false;
   });
 
   $("#brand").on("click", function () {
+    console.log("Brand clicked");
     $("html, body").animate(
       {
         scrollTop: 0,
       },
-      1500
+      0
     );
+    refreshPage();
     return false;
+  });
+}
+function refreshPage() {
+  // Refresh the page with loading
+  // window.location.reload();
+
+  // // Remove hash from URL without reloading
+  if (window.location.hash) {
+    history.replaceState(null, document.title, window.location.pathname + window.location.search);
+  }
+  // Clear active classes on navbar
+  $("a").each(function () {
+    $(this).removeClass("active");
   });
 }
 
