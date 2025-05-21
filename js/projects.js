@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function mapProjectsData() {
-  let projects = [
+  let projectsList = [
     // {
     //   title: "The Holy Qur'an",
     //   image: "images/projects/quran.png",
@@ -163,8 +163,8 @@ function mapProjectsData() {
     },
   ];
 
-  for (var i = 0; i < projects.length; i++) {
-    var project = projects[i];
+  for (var i = 0; i < projectsList.length; i++) {
+    var project = projectsList[i];
     var title = project.title;
     var type = project.type;
     var image = project.image;
