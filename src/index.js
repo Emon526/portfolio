@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
           {
             scrollTop: $target.offset().top + 2,
           },
-          1000,
+          0,
           "swing",
           function () {
             window.location.hash = target;
@@ -55,7 +55,7 @@ function scrollToTop() {
       {
         scrollTop: 0,
       },
-      1500
+      0
     );
     return false;
   });
@@ -65,7 +65,7 @@ function scrollToTop() {
       {
         scrollTop: 0,
       },
-      1500
+      0
     );
     return false;
   });
